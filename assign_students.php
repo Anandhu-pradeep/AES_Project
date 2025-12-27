@@ -186,7 +186,7 @@ $_SESSION['used'][$batch] = array_merge(
                     </tr>
 
                     <tr>
-                        <td>18–DD MM YYYY</td>
+                        <td>DD MM YYYY</td>
                         <td><b>Interim Project Evaluation</b><br>Literature review, implementation, Git verification, 60% completion</td>
                         <td><input type="description"></td>
                         <td><button type="submit">apply</button></td>
