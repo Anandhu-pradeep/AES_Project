@@ -242,14 +242,14 @@ $_SESSION['used'][$batch] = array_merge(
                     </tr>
 
                     <tr>
-                        <td>DD MM YYYY 2025</td>
+                        <td>DD MM YYYY</td>
                         <td>Final committee evaluation & presentation</td>
                         <td><input type="description"></td>
                         <td><button type="submit">apply</button></td>
                     </tr>
 
                     <tr>
-                        <td>DD MM YYYY 2025</td>
+                        <td>DD MM YYYY</td>
                         <td>Review paper publishing</td>
                         <td><input type="description"></td>
                         <td><button type="submit">apply</button></td>
