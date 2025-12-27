@@ -84,8 +84,62 @@ $_SESSION['used'][$batch] = array_merge(
                         text-align:center;
                         background:#eaeaea;
                     }
-                </style>
+                        .scrum-header{
+                        font-family: "Times New Roman", serif;
+                        margin-bottom: 15px;
+                    }
+                    .scrum-header h2{
+                        text-align:center;
+                        margin:0;
+                        font-size:22px;
+                        font-weight:bold;
+                    }
+                    .scrum-header h3{
+                        text-align:center;
+                        margin:5px 0 15px;
+                        font-size:18px;
+                        font-weight:bold;
+                    }
+                    .scrum-details{
+                        width:100%;
+                        font-size:15px;
+                    }
+                    .scrum-row{
+                        display:flex;
+                        justify-content:space-between;
+                        margin:6px 0;
+                    }
+                </style> 
+                <div class="scrum-header">
+                    <h2>SCRUM REGISTER</h2>
+                    <h3>24MCAR295 - RESEARCH PROJECT / SOFTWARE PROJECT PART 1</h3>
+                </div>
 
+                <div class="scrum-details">
+                    <div class="scrum-row">
+                        <span><b>Name:</b> <?= htmlspecialchars($student) ?></span>
+                        <span><b>Batch:</b> <?= htmlspecialchars($batch) ?></span>
+                    </div>
+
+                    <div class="scrum-row">
+                        <span><b>Roll No:</b> ____________</span>
+                        <span><b>Project Commencement:</b> dd/mm/yyyy</span>
+                    </div>
+
+                    <div class="scrum-row">
+                        <span><b>Reg. No:</b> ____________</span>
+                    </div>
+
+                    <div class="scrum-row">
+                        <span><b>Project Title:</b> _________________________________</span>
+                    </div>
+
+                    <div class="scrum-row">
+                        <span><b>Scrum Master:</b> _________________________________</span>
+                    </div>
+                </div>
+
+                <br>             
                 <table>
                     <tr>
                         <th>Week / Month</th>
